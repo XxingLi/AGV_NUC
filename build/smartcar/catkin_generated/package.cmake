@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "smartcar")
+set(smartcar_MAINTAINER "kingyoung <kingyoung@todo.todo>")
+set(smartcar_DEPRECATED "")
+set(smartcar_VERSION "0.0.0")
+set(smartcar_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "urdf")
+set(smartcar_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "urdf")
+set(smartcar_BUILDTOOL_DEPENDS "catkin")

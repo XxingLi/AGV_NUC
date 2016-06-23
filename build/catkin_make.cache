@@ -1,0 +1,2 @@
+beginner_tutorials:jy_agv_2dnav:odom_publisher:robot_setup_tf:serial_pkg:simple_navigation_goals:smartcar
+-DCATKIN_DEVEL_PREFIX=/home/kingyoung/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kingyoung/catkin_ws/install

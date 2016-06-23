@@ -1,0 +1,15 @@
+<launch>
+
+  <!--- Run configuration -->                                                                                                                                                                 
+  <include file="$(find jy_agv_2dnav)/launch/agv_configuration.launch" />
+
+  <!--- Run gmapping -->
+  <include file="$(find jy_agv_2dnav)/launch/gmapping.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find jy_agv_2dnav)/launch/move_base.launch" />
+
+  <!-- Run Frontier Exploration -->
+  <include file="$(find jy_agv_2dnav)/launch/exploration.launch"/>
+
+</launch>

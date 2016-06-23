@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "jy_agv_2dnav")
+set(jy_agv_2dnav_MAINTAINER "logic <logic@todo.todo>")
+set(jy_agv_2dnav_DEPRECATED "")
+set(jy_agv_2dnav_VERSION "0.0.0")
+set(jy_agv_2dnav_BUILD_DEPENDS "hokuyo_node" "move_base" "odom_publisher" "robot_setup_tf")
+set(jy_agv_2dnav_RUN_DEPENDS "hokuyo_node" "move_base" "odom_publisher" "robot_setup_tf")
+set(jy_agv_2dnav_BUILDTOOL_DEPENDS "catkin")

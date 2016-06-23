@@ -1,0 +1,8 @@
+prefix=/home/kingyoung/catkin_ws/devel
+
+Name: serial_pkg
+Description: Description of serial_pkg
+Version: 0.0.0
+Cflags: -I/home/kingyoung/catkin_ws/devel/include -I/home/kingyoung/catkin_ws/src/serial_pkg/include
+Libs: -L/home/kingyoung/catkin_ws/devel/lib -lserial_pkg
+Requires: roscpp rospy std_msgs

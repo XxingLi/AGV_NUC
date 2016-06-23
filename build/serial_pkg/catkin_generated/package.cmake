@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "serial_pkg")
+set(serial_pkg_MAINTAINER "kingyoung <kingyoung@todo.todo>")
+set(serial_pkg_DEPRECATED "")
+set(serial_pkg_VERSION "0.0.0")
+set(serial_pkg_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
+set(serial_pkg_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(serial_pkg_BUILDTOOL_DEPENDS "catkin")

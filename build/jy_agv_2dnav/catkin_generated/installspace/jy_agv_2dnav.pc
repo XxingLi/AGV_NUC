@@ -1,0 +1,8 @@
+prefix=/home/kingyoung/catkin_ws/install
+
+Name: jy_agv_2dnav
+Description: Description of jy_agv_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kingyoung/catkin_ws/install/lib 
+Requires: 

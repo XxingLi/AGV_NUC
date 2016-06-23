@@ -1,0 +1,21 @@
+<launch>
+
+  <!--- Run configuration -->                                                                                                                                                                 
+  <include file="$(find jy_agv_2dnav)/launch/agv_configuration.launch" />
+
+  <!-- Run the map server -->
+  <!-- node name="map_server" pkg="map_server" type="map_server" args="$(find jy_agv_2dnav)/maps/test_map.yaml"/ -->
+
+  <!-- Run the map server with a blank map -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find jy_agv_2dnav)/maps/test_map.yaml"/>
+
+  <!-- Run a static transform between /odom and /map -->
+  <!-- node pkg="tf" type="static_transform_publisher"  name="odom_map_broadcaster" args="0 0 0 0 0 0 map odom 100" /-->
+
+  <!-- Run AMCL -->
+  <include file="$(find jy_agv_2dnav)/launch/amcl.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find jy_agv_2dnav)/launch/move_base.launch" />
+
+</launch>

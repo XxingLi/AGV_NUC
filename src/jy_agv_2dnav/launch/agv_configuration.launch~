@@ -1,0 +1,15 @@
+<launch>
+  <node pkg="hokuyo_node" type="hokuyo_node" name="scan" output="screen">
+    <param name="min_ang" value="-1.7" />
+    <param name="max_ang" value="1.7" />
+    <param name="calibrate_time" value="true" />
+    <param name="frame_id" value="base_laser" />
+  </node>
+
+  <node pkg="odom_publisher" type="odom_publisher" name="odometry_publisher" output="screen">
+  </node>
+
+ <!-- Run a static transform between /base_laser and /base_link -->
+  <node pkg="tf" type="static_transform_publisher"  name="laser_static_broadcaster" args="0.32 0 0.2 0 0 0 base_link base_laser 100" />
+
+</launch>

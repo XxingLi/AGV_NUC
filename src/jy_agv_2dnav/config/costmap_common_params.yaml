@@ -1,0 +1,29 @@
+obstacle_range: 4.5
+raytrace_range: 5.0
+
+footprint: [ [0.35, 0.35], [0.35, -0.35], [-0.35, -0.35], [-0.35, 0.35] ]
+footprint_padding: 0.01
+max_obstacle_height: 5.0
+min_obstacle_height: -5.0
+
+
+global_frame: map
+robot_base_frame: base_link
+update_frequency: 6.0
+publish_frequency: 1.5
+transform_tolerance: 0.5
+
+resolution: 0.02
+
+#layer definitions
+
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+
+inflation:
+   inflation_radius: 0.25
+
+obstacles_laser:
+   observation_sources: laser_scan_sensor
+   laser_scan_sensor: {sensor_frame: base_laser, data_type: LaserScan, topic: /scan, marking: true, clearing: true, expected_update_rate: 1.0, observation_persistence: 0.0, inf_is_valid: true}

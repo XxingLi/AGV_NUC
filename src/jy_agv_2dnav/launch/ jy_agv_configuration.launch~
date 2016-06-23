@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="hokuyo_node" type="hokuyo_node" name="scan" output="screen">
+    <param name="frame_id" value="laser_frame" />
+  </node>
+
+  <node pkg="odom_publisher" type="odom_publisher" name="odometry_publisher" output="screen">
+#    <param name="odom_param" value="param_value" />
+  </node>
+
+  <node pkg="robot_setup_tf" type="tf_broadcaster" name="robot_tf_publisher" output="screen">
+#    <param name="transform_configuration_param" value="param_value" />
+  </node>
+</launch>

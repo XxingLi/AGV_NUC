@@ -1,0 +1,8 @@
+/home/kingyoung/catkin_ws/install/_setup_util.py
+/home/kingyoung/catkin_ws/install/env.sh
+/home/kingyoung/catkin_ws/install/setup.bash
+/home/kingyoung/catkin_ws/install/setup.sh
+/home/kingyoung/catkin_ws/install/setup.zsh
+/home/kingyoung/catkin_ws/install/.rosinstall
+/home/kingyoung/catkin_ws/install/etc/catkin/profile.d/05.catkin_make.bash
+/home/kingyoung/catkin_ws/install/etc/catkin/profile.d/05.catkin_make_isolated.bash

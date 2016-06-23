@@ -1,0 +1,5 @@
+uint8 flag_write
+uint8 flag_read
+---
+uint8 write_data
+uint8 read_data
